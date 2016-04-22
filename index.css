@@ -1,0 +1,14 @@
+
+* {box-sizing: border-box;}
+
+.container {
+  display: block;
+  margin: 0px auto;
+  max-width: 740px;
+  padding: 20px;
+}
+
+.game {
+  background-color: #eee;
+}
+

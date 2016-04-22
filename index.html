@@ -1,0 +1,44 @@
+<html>
+<head>
+  <title>Gravitas</title>
+  <link rel='stylesheet' href='index.css'>
+</head>
+<body>
+  <div class='container'>
+    <div class='game'>
+      <canvas id='game' width=720 height=540></canvas>
+      <button id='start-button'>Start</button>
+      <button id='pause-button'>Pause</button>
+    </div>
+    <article>
+      <h1>Gravitas</h1>
+      <p>
+        Gravitas is a physics based game centered around the force of gravity. 
+        The goal of Gravitas is to keep the target mass within the frame for
+        as long as possible by creating and destory other masses which will
+        pull on the the target mass in strict adherence to the laws of nature.
+      </p>
+      <section>
+        <h2>How to Play</h2>
+        <p>
+          This game allows you three methods of interaction: creating, enlarging, and destroying masses. 
+          Clicking anywhere other than a mass will create a mass in that position.
+          Pressing on a mass will increase its mass and thus its attraction force. 
+          Clicking (or tapping) on a mass other than the target mass destroys it instantly.
+        </p>
+        <p>
+          This game is made even more challenging by a couple of conditions. 
+          First, you cannot destory all of the non-target masses, there always needs to be at least one.
+          Second, masses attract all other masses not just the target mass.
+          Third, as you progress in the game some predefined havoc ensues.
+        </p>
+      </section>
+    </article>
+  </div>
+
+  <script src='index.js'></script>
+</body>
+
+
+
+
